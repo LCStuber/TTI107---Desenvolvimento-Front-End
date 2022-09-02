@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Cursos</title>
+    <!-- <link rel="stylesheet" href="css/style.css"> -->
+    <style>
+        article p {
+            padding: 10px;
+            background-color: lightcyan;
+        }
+
+        #principal p.promoção {
+            padding: 10px;
+            background-color: lightgoldenrodyellow;
+        }
+
+        body #principal article section p.coordenadores {
+            text-align: center;
+        }
+
+        article > p {
+            border: 2px solid green;
+        }
+    </style>
+</head>
+
+<body>
+    <main id="principal">
+        <h1 id="título">Portal de Cursos</h1>
+        <p id="descrição">Temos cursos das mais diversas áreas.</p>
+        <p class="nova promoção">
+            Venha conversar conosco e conhecer nossas ofertas de <strong>bolsas de estudos!</strong>
+        </p>
+        <article>
+            <p>Cursos</p>
+            <p class="novo-curso">Ciência da Computação</p>
+            <p class="curso">Engenharia</p>
+            <p class="curso">Administração</p>
+            <section>
+                <p class="coordenadores">Nossos coordenadores estão à disposição!</p>
+            </section>
+        </article>
+        <p class="final-página" id="contato">Entre em contato: +55 (11) 98765-4321</p>
+        <p id="rodapé" class="final-página">&copy; Todos os direitos reservados.</p>
+    </main>
+</body>
+
+</html>
