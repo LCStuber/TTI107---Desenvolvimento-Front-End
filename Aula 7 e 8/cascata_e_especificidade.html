@@ -6,18 +6,40 @@
     <title>Cascata CSS</title>
     <link rel="stylesheet" href="css/cascata.css">
     <style>
-        p {
+        #título {
+            color: green;
+        }
+
+        .descrição {
             color: blue;
         }
 
         p {
-            color: yellow;
+            color: red;
+        }
+
+        .principal article {
+            background-color: aliceblue;
+        }
+
+        main article {
+            background-color: bisque;
+        }
+
+        main,
+        article {
+            background-color: azure;
         }
     </style>
 </head>
 
 <body>
-    <p>Meu parágrafo</p>
+    <main>
+        <article>
+            <p>Este parágrafo está dentor de article que está dentro de main</p>
+        </article>
+    </main>
+    <p id="título" class="descrição">Estudo do algorítimo de especificidades</p>
 </body>
 
 </html>
