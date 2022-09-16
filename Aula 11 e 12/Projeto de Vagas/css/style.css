@@ -22,7 +22,6 @@ header img {
     margin: 0 auto;
     padding-left: 12px;
     padding-right: 12px;
-    background-color: aliceblue;
 }
 
 article {
@@ -31,7 +30,7 @@ article {
     width: 300px;
 }
 
-article > h2{
+article>h2 {
     background-color: rgb(55, 55, 255);
     color: white;
     text-align: center;
@@ -42,23 +41,27 @@ article > h2{
     margin-bottom: 0;
 }
 
-article > div{
+article>div {
     text-align: center;
     font-size: 18px;
     margin-top: 12px;
 }
 
-article > ul{
-    list-style:  none;
+article>ul {
+    list-style: none;
     padding: 0;
     margin: 12px 0;
 }
 
-article > ul > li{
+article>ul>li {
     text-align: center;
     font-size: 12px;
 }
 
-article > footer{
+article>footer {
     text-align: center;
+}
+
+#vagas {
+    padding: 80px;
 }
