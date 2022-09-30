@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+header {
+    height: 80px;
+    border-bottom: 1px #ccc solid;
+}
+
+header img {
+    margin-top: 10px;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+article {
+    padding: 12px;
+    border: 1px rgb(55, 55, 255) solid;
+}
+
+@media(min-width: 960px) {
+    article {
+        width: 33%;
+        float: left;
+        margin-right: 6px;
+    }
+}
+
+article>h2 {
+    background-color: rgb(55, 55, 255);
+    color: white;
+    text-align: center;
+    line-height: 3;
+    font-weight: normal;
+    font-size: 18px;
+    margin: -12px;
+    margin-bottom: 0;
+}
+
+article>div {
+    text-align: center;
+    font-size: 18px;
+    margin-top: 12px;
+}
+
+article>ul {
+    list-style: none;
+    padding: 0;
+    margin: 12px 0;
+}
+
+article>ul>li {
+    text-align: center;
+    font-size: 12px;
+}
+
+article>footer {
+    text-align: center;
+}
+
+#vagas {
+    padding: 80px;
+    margin: 0 auto;
+}
+
+#vagas::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.botao {
+    display: inline-block;
+    background-color: blue;
+    color: azure;
+    padding: 10px 14px;
+    text-decoration: none;
+}
+
+.botao:hover,
+.botao:focus {
+    background-color: darkblue;
+    color: azure;
+    outline: none;
+}

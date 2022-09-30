@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Teste Float</title>
+    <style>
+        body {
+            font-size: 20px;
+        }
+
+        h1 {
+            margin: 0;
+        }
+
+        .caixa1 {
+            background-color: aliceblue;
+            float: left;
+            width: 35%;
+        }
+
+        .caixa2 {
+            background-color: antiquewhite;
+            float: right;
+            width: 35%;
+        }
+
+        footer {
+            background-color: beige;
+        }
+
+        article>p::first-letter {
+            font-size: 40px;
+        }
+
+        h1::before {
+            content: "Título: ";
+        }
+
+        h1::after {
+            content: " 2022";
+        }
+
+        article::after {
+            content: "";
+            display: block;
+            clear: both;
+        }
+    </style>
+</head>
+
+<body>
+    <article>
+        <h1>BoDia!</h1>
+        <p class="caixa1">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum officia, est ex laboriosam quasi
+            repellat corrupti minima alias deleniti veniam consequatur cupiditate amet, commodi quo iure rem enim
+            necessitatibus nihil.</p>
+        <p class="caixa2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima sequi nemo cupiditate sint! A
+            odio, obcaecati quis nisi est voluptatem totam odit esse minus amet? In iste eligendi cupiditate totam!</p>
+        <!-- <div style="clear: both;"></div> -->
+    </article>
+    <footer>Rodapé, meu rodapézinho, olha que bunitinhu que ele é</footer>
+</body>
+
+</html>
