@@ -1,0 +1,51 @@
+.vaga {
+    padding: 12px;
+    border: 1px rgb(55, 55, 255) solid;
+}
+
+.vaga__cabecalho {
+    background-color: rgb(55, 55, 255);
+    color: white;
+    text-align: center;
+    line-height: 3;
+    font-weight: normal;
+    font-size: 18px;
+    margin: -12px;
+    margin-bottom: 0;
+}
+
+.vaga__salario {
+    text-align: center;
+    font-size: 18px;
+    margin-top: 12px;
+}
+
+.vaga__prerequisitos {
+    list-style: none;
+    padding: 0;
+    margin: 12px 0;
+}
+
+.vaga__prerequisitos>li {
+    text-align: center;
+    font-size: 12px;
+}
+
+.vaga__rodape {
+    text-align: center;
+}
+
+.botao {
+    display: inline-block;
+    background-color: blue;
+    color: azure;
+    padding: 10px 14px;
+    text-decoration: none;
+}
+
+.botao:hover,
+.botao:focus {
+    background-color: darkblue;
+    color: azure;
+    outline: none;
+}

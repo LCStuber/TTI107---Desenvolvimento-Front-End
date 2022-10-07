@@ -1,0 +1,13 @@
+.leiaute-cabecalho {
+    height: 80px;
+    border-bottom: 1px #ccc solid;
+}
+
+.leiaute-cabecalho img {
+    margin-top: 10px;
+}
+
+.leiaute-vagas {
+    padding: 80px;
+    margin: 0 auto;
+}
