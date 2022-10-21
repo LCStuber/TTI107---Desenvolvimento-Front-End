@@ -28,7 +28,7 @@ app.post("/filmes", (req, res) => {
     const sinopse = req.body.sinopse
     const filme = {titulo: titulo, sinopse: sinopse}
     filmes.push(filme)
-    req.json(filmes)
+    res.json(filmes)
 })
 
 app.listen(3000, () => console.log("up and running"))
