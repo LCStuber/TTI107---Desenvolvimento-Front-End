@@ -1,0 +1,58 @@
+#navbar {
+    border: 1px;
+    border: solid;
+    border-radius: 10px 10px 10px 10px;
+}
+
+h1{
+    margin-top: 50px;
+}
+
+article{
+    border: 1px;
+    border: solid;
+    border-radius: 10px 10px 10px 10px;
+    height: auto;
+}
+
+p{
+    font-size: 6px;
+}
+
+article>footer{
+    font-size: 12px;
+}
+
+.botao {
+    border: solid 2px rgb(37, 23, 233);
+    border-radius: 10px;
+    display: inline-block;
+    background-color: rgb(37, 23, 233);
+    color: white;
+    padding: 10px 14px;
+    text-decoration: none;
+
+}
+
+.botao:hover, .botao:focus {
+    background-color: rgb(132, 99, 248);
+    color: white;
+}
+
+
+
+.botao2 {
+    border: solid 2px rgb(243, 20, 124);
+    border-radius: 10px;
+    display: inline-block;
+    background-color: rgb(243, 20, 124);
+    color: white;
+    padding: 10px 14px;
+    text-decoration: none;
+
+}
+
+.botao2:hover, .botao2:focus {
+    background-color: rgb(245, 133, 158);
+    color: white;
+}
